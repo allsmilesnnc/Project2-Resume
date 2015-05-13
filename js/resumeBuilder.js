@@ -1,4 +1,4 @@
-ar bio = {
+var bio = {
 	"name": "Douglas Edge",
 	"role": "Web Developer",
 	"contacts": {
@@ -14,7 +14,7 @@ ar bio = {
 				"JavaScript", "managing people", "analyzing data",
 				"communicating with others", "organization", "listening"],
 	"bioPic": "images/fry.jpg"
-		   }
+	};
 
 
 bio.display = function() {
@@ -273,3 +273,4 @@ $(document).click(function(loc) {
 
     logClicks(x,y);
 });
+
